@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/negasus/haproxy-spoe-go/frame"
-	"github.com/negasus/haproxy-spoe-go/request"
+	"github.com/shiftkey/haproxy-spoe-go/frame"
+	"github.com/shiftkey/haproxy-spoe-go/request"
 )
 
 func (w *worker) processNotifyFrame(f *frame.Frame) {

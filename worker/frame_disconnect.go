@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/negasus/haproxy-spoe-go/frame"
+	"github.com/shiftkey/haproxy-spoe-go/frame"
 )
 
 func (w *worker) sendAgentDisconnect(f *frame.Frame, statusCode uint32, message string) error {

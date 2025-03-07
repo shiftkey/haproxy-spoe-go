@@ -3,8 +3,8 @@ package action
 import (
 	"fmt"
 
-	"github.com/negasus/haproxy-spoe-go/typeddata"
-	"github.com/negasus/haproxy-spoe-go/varint"
+	"github.com/shiftkey/haproxy-spoe-go/typeddata"
+	"github.com/shiftkey/haproxy-spoe-go/varint"
 )
 
 func (action *Action) Marshal(buf []byte) ([]byte, error) {
