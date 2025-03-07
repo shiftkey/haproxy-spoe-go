@@ -6,7 +6,7 @@ import (
 	"net"
 	"reflect"
 
-	"github.com/negasus/haproxy-spoe-go/varint"
+	"github.com/shiftkey/haproxy-spoe-go/varint"
 )
 
 const (
@@ -51,7 +51,7 @@ func Encode(data interface{}, buf []byte) ([]byte, int, error) {
 	case bool:
 		var b byte = 0x11
 		if !v {
-			b = 0x10
+			b = 0x01
 		}
 		buf = append(buf, b)
 		return buf, 1, nil
