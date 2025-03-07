@@ -1,4 +1,4 @@
-module github.com/shiftkey/haproxy-spoe-go/fork
+module github.com/shiftkey/haproxy-spoe-go
 
 go 1.19
 
